@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body {
+    font-family: Poppins, sans-serif;
+    background: linear-gradient(90deg, #050df0 0%, #383232 96%);
+}
+p {
+    color: aquamarine;
+}
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(20, 233, 20);
+}
+.navbar-brand img {
+    width: 35px;
+
+}
+.navbar-toggler {
+    background-color: rgb(230, 230, 14);
+}
+.sidebar {
+    color: #1aec83;
+    background: linear-gradient(270deg, #050df0 0%, #383232 96%);
+}
+.card {
+background-color:#050df0;
+color: aquamarine;
+}
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+}
+.slide-text {
+    color: aquamarine;
+    margin: auto auto !important;
+}
+@media (min-width: 768px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+.footer-text {
+    color: aquamarine;
+    text-align: center;
+}
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #050df0 0%, #383232 96%);
+}
+.call-anim {
+    animation: call 2s ease 0s 1 normal forwards;
+}
+@keyframes call {
+	0% {
+		transform: scale(0.5);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
